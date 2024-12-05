@@ -1,379 +1,396 @@
-<html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
-    <title>Груминг салон</title>
-  </head>
-  <body class="page">
-    <header class="page-header">
-      <div class="services">
-        <div class="services-content">
-          <a class="location" href="#">Ростов-на-дону</a>
-          <p class="caption">Тема</p>
-          <ul class="theme-switcher">
-            <li>
-              <button class="theme-button-dark" type="button"></button>
-            </li>
-            <li>
-              <button class="theme-button-light active" type="button"></button>
-            </li>
-          </ul>
-          <p class="caption">Шрифт</p>
-          <ul class="fonts">
-            <li>
-              <button class="font-button-sans-serif active" type="button">А</button>
-            </li>
-            <li>
-              <button class="font-button-serif" type="button">А</button>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <nav class="main-nav">
-        <p class="logo">
-          <img src="https://i.pinimg.com/564x/4c/71/74/4c7174903c9167c4980e947fed730573.jpg" width="150" height="120" alt="Логотип груминг салона GroomRoom">
-        </p>
-        <ul class="site-navigation">
-          <li class="site-navigation-item">
-            
-          <li class="site-navigation-item">
-            <a href="#">наш клуб</a>
-          </li>
-          <li class="site-navigation-item">
-            <a href="#">Команда</a>
-          </li>
-          <li class="site-navigation-item">
-            <a href="#">Услуги</a>
-          </li>
-          <li class="site-navigation-item">
-            <a href="#">Новости</a>
-          </li>
-          <li class="site-navigation-item">
-            <a href="#">Контакты</a>
-          </li>
-        </ul>
-        <a class="signin" href="#">
-          <img src="https://i.pinimg.com/564x/2f/b2/36/2fb236c27f60c7eaeaadcdf1ae43acd8.jpg" width="16" height="18" alt="Кабинет пользователя">
-        </a>
-      </nav>
-    </header>
-    <main class="main-content">
-      <section class="hero">
-        <h1>Забота о внешнем виде питомца</h1>
-        <img src="https://i.pinimg.com/564x/26/be/64/26be64547faa32e6f65ad5dde5d9a330.jpg" width="950" height="450" alt="груминг салон">
-      </section>
-      <article class="blog-article blog-article-1 short">
-        <div class="blog-article-content">
-          <p class="blog-article-date"><time datetime="2021-10-20">20 мая</time> - <time datetime="2021-04-19">19 сентября</time></p>
-          <h2>Стань частью команды</h2>
-          <p class="blog-article-description">Если вы давно хотели попробовать себя в груминге – сейчас самое лучшее время! Мы набираем команду будущих мастеров. За 4 месяца вы станете настоящим профессионалом и уже в следующем сезоне сможете самостоятельно работать!</p>
-          <button class="more" type="button">Читать дальше</button>
-        </div>
-        <img src="https://i.pinimg.com/564x/16/f4/0b/16f40b507296433cfe511d441afe4ecd.jpg" width="380" height="300" alt="груминг салон">
-      </article>
-      <article class="blog-article blog-article-2 short">
-        <div class="blog-article-content">
-          <p class="blog-article-date"><time datetime="2021-07-16">16 мая</time> - <time datetime="2021-07-23">23 мая</time></p>
-          <h2>Акции месяца</h2>
-          <p class="blog-article-description">Подарите любимым питомцам заботу от профессионалов! День с грумиром – это лучшая команда, игры, вкусные и рекомендованные ветеринарами перекусы, отдых и конечно ежемесячные акции!</p>
-          <button class="more" type="button">Читать дальше</button>
-        </div>
-        <img src="https://i.pinimg.com/564x/44/99/52/449952b7d30f3294383603285dcf0c64.jpg" width="420" height="500" alt="груминг салон">
-      </article>
-      <section class="rent">
-        <header>
-          <h2>Услуги</h2>
-          <ul class="card-view-buttons">
-            <li class="card-view-item">
-              <button class="card-view-button-grid active" type="button"></button>
-            </li>
-            <li class="card-view-item">
-              <button class="card-view-button-list" type="button"></button>
-            </li>
-          </ul>
-        </header>
-        <ul class="cards">
-          <li class="card">
-            <img src="https://i.pinimg.com/564x/fe/03/db/fe03db1ea54da8f192ab4370866a4a89.jpg" width="300" height="250" alt="стрижка">
-            <div class="card-content">
-              <h3 class="card-title">Стрижка</h3>
-              <p class="card-description">Наши мастера специализируются на стрижке различных пород собак. Сложность работы не важна, в нашем салоне стригут длинношерстных и короткошерстных собак, больших и маленьких пород.</p>
-              <ul class="card-features">
-                <li>В зависимости от размера</li>
-                <li>Удаление колтунов</li>
-                <li>Мытье</li>
-                <li>Сушка</li>
-              </ul>
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="x-apple-disable-message-reformatting" />
+
+</head>
+
+<body>
+  <div style="display: inline-block; width: 1440px" data-ignore="used only for top most containter width">
+    <div class="main-content-container2">
+      <div class="vertical-flex-container">
+        <div class="main-content-container1">
+          <div class="main-content-container">
+            <div class="flex-container-with-spacing">
+              <img src="https://i.ibb.co/F3MCsNJ/image-699b11ec.png" class="contact-info-container" />
+              <div class="call-me-button-container">
+                <div class="contact-info-container1">
+                  <p class="contact-info-heading">По вопросам и предложениям</p>
+                  <p class="email-link-text-style">pionerrr@sila.ru</p>
+                </div>
+                <div class="contact-info-section">
+                  <p class="contact-info-heading">Для консультаций</p>
+                  <p class="contact-info-bold">+7 (495) 456-24-21</p>
+                </div>
+              </div>
             </div>
-            <p class="card-price">
-              <span class="card-price-name">Цена:</span>
-              <span class="card-price-value">1 500 - 5 000 ₽</span>
-            </p>
-          </li>
-          <li class="card">
-            <img src="https://i.pinimg.com/564x/31/bb/a4/31bba4456f21667e5895aa98129608e5.jpg" width="300" height="250" alt="окрашивание">
-            <div class="card-content">
-              <h3 class="card-title">Окрашивание</h3>
-              <p class="card-description">Покраска может скрыть какие-то недостатки, перекрасить определенные участки тела животного, которые чаще всего загрязняются и требуют постоянного мытья и ухода, а также в других эстетических целях.</p>
-              <ul class="card-features">
-                <li>Мытье</li>
-                <li>Сушка</li>
-                <li>Срижка "породная оконтовка" (по желанию)</li>
-                
-              </ul>
+            <div class="main-navigation-container">
+              <div class="horizontal-divider"></div>
+              <div class="header-navigation-container">
+                <div class="navigation-bar">
+                  <p class="primary-text-styles">Главная</p>
+                  <p class="primary-text-styles">О предприятии</p>
+                  <p class="primary-text-styles">Новости</p>
+                  <p class="primary-text-styles">Продукция</p>
+                  <p class="primary-text-styles">Услуги</p>
+                  <p class="primary-text-styles">Поддержка</p>
+                  <p class="primary-text-styles">География поставок</p>
+                  <p class="primary-text-styles">Контакты</p>
+                </div>
+                <div class="call-me-button-container">
+                  <div class="svg-container">
+                    <svg viewBox="0 0 16 16" x="0" y="0" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <defs>
+                        <clipPath id="clip7_0_11" xmlns="http://www.w3.org/2000/svg">
+                          <rect width="16" height="16" fill="white" transform="translate(0, 0)" />
+                        </clipPath>
+                      </defs>
+                      <g id="phone 1" data-node-id="0:294" clip-path="url(#clip7_0_11)" xmlns="http://www.w3.org/2000/svg">
+                        <path id="Vector_7" data-node-id="0:295" d="M12.2,10c-1.1,-0.1 -1.7,1.4 -2.5,1.8c-1.3,0.7 -3.7,-1.8 -3.7,-1.8c0,0 -2.5,-2.4 -1.9,-3.7c0.5,-0.8 2,-1.4 1.9,-2.5c-0.1,-1 -2.3,-4.6 -3.4,-3.6c-2.4,2.2 -2.6,3.1 -2.6,4.9c-0.1,3.1 3.9,7 3.9,7c0.4,0.4 3.9,4 7,3.9c1.8,0 2.7,-0.2 4.9,-2.6c1,-1.1 -2.5,-3.3 -3.6,-3.4z" fill="currentColor" />
+                      </g>
+                    </svg>
+                  </div>
+                  <p class="call-me-back-text-style">Перезвоните мне</p>
+                </div>
+              </div>
             </div>
-            <p class="card-price">
-              <span class="card-price-name">Цена:</span>
-              <span class="card-price-value">1 500 - 5 000 ₽</span>
-            </p>
-          </li>
-          <li class="card">
-            <img src="https://i.pinimg.com/564x/a4/ec/4c/a4ec4c2b5b7a7572a5f96df4200dbcd1.jpg" width="300" height="250" alt="гигиена">
-            <div class="card-content">
-              <h3 class="card-title">Гигиена</h3>
-              <p class="card-description"> Комплексная и регулярная гигиена для собак – это первоочередная задача каждого любящего хозяина, который заботится о физическом здоровье и хорошем самочувствии своего питомца.</p>
-              <ul class="card-features">
-                <li>Мытье + сушка</li>
-                <li>Обтачивание ногтей</li>
-                <li>Удаление колтунов</li>
-                <li>Чистка ушей</li>
-              </ul>
-            </div>
-            <p class="card-price">
-              <span class="card-price-name">Цена:</span>
-              <span class="card-price-value">2 500 - 4 500 ₽</span>
-            </p>
-          </li>
-          <li class="card">
-            <img src="https://i.pinimg.com/564x/ea/f5/16/eaf516591c025c71960dac58ff4ba08c.jpg" width="300" height="250" alt="спа">
-            <div class="card-content">
-              <h3 class="card-title">SPA-процедуры</h3>
-              <p class="card-description"> Потребность в спа для собак Москва продиктована самой природой. Здесь питомцы получают то, чего им так не хватает в квартире, доме или на прогулке в городском парке.
-</p>
-              <ul class="card-features">
-                <li>Купание по типу шерсти</li>
-                <li>Купание супер очищающее</li>
-                <li>Использование маски-кондиционера</li>
-                <li>Сушка</li>
-              </ul>
-            </div>
-            <p class="card-price">
-              <span class="card-price-name">Цена:</span>
-              <span class="card-price-value">2 500 - 4 000 ₽</span>
-            </p>
-          </li>
-          <li class="card">
-           <img src="https://i.pinimg.com/564x/35/04/84/350484fadaf66a8b92b165eef364355c.jpg" width="300" height="250" alt="озонотерапия">
-            <div class="card-content">
-              <h3 class="card-title">Озонотерапия</h3>
-              <p class="card-description">Основное чудо связано со способностью озона обезвреживать болезнетворные бактерии и грибки. Он оказывает противовоспалительное и заживляющее воздействие на открытые раны.</p>
-              <ul class="card-features">
-                <li>Купание</li>
-                <li>Гидромассаж</li>
-                <li>Обогощение озоном</li>
-                <li>Сушка</li>
-              </ul>
-            </div>
-            <p class="card-price">
-              <span class="card-price-name">Цена:</span>
-              <span class="card-price-value">1 000 - 3000 ₽/час</span>
-            </p>
-          </li>
-        </ul>
-      </section>
-      <section class="gallery">
-        <h2>Галерея</h2>
-        <div class="slider">
-          <img src="https://i.pinimg.com/564x/0a/65/e0/0a65e049b65856c6f07f8b45bd04ad0a.jpg" width="800" height="700" alt="">
-          <ul class="preview-list">
-            <li>
-              <a href="img/gallery-photo-1.jpg">
-                <img src="https://i.pinimg.com/564x/54/24/c3/5424c339a11da94eb6320d033e9ca5d3.jpg" width="170" height="150" alt="">
-              </a>
-            </li>
-            <li>
-              <a href="img/gallery-photo-2.jpg">
-                <img src="https://i.pinimg.com/564x/20/af/c8/20afc80e5801aca01ec125307b435d65.jpg" width="170" height="150" alt="">
-              </a>
-            </li>
-            <li>
-              <a href="img/gallery-photo-3.jpg">
-                <img src="https://i.pinimg.com/564x/33/43/b8/3343b8c422dba9ed9405c6f5ba3819fa.jpg" width="170" height="160" alt="">
-              </a>
-            </li>
-            <li>
-              <a href="img/gallery-photo-4.jpg" class="active-item">
-                <img src="https://i.pinimg.com/564x/f2/63/3b/f2633b16a46ae20cdac9615a0b3a0313.jpg" width="170" height="150" alt="">
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section class="news">
-        <h2>Новости</h2>
-        <article class="post">
-          <figure class="post-img">
-            <img src="https://i.pinimg.com/564x/df/2f/04/df2f04438fb4e3b37d77f2938eb5b162.jpg" width="750" height="550" alt="">
-            <figcaption>Победитель конкурса Ольга Архипова</figcaption>
-          </figure>
-          <div class="post-content">
-            <h3>Со всем скоро итоги Всероссийского конкурса грумеров GroomingFest</h3>
-            <p>Уже 5-6 июля во Владивостоке у вас будет возможность не только погрузиться в атмосферу конкурса, но и получить ценные советы от наших экспертов - гуру груминга!</p>
-            <p>Встретиться с ними лично и пообщаться - это один из существенных поводов для того, чтобы приехать на конкурс.</p>
-            <h4>Категории конкурса:</h4>
-            <ul>
-              <li>Шоу-груминг кошек</li>
-              <li>Ниспадающий тип шерсти</li>
-              <li>Двойной тип шерсти</li>
-              <li>Йорки</li>
-              <li>Стриппинг</li>
-              <li>Пудели</li>
-              <li>Модел-дог (голова) - креатив (тема - лето)</li>
-            </ul>
-           
-            <blockquote>Поздравляем победителей и ждем участников снова в следующем году!</blockquote>
           </div>
-          <footer class="post-footer">
-      
-          </footer>
-        </article>
-      </section>
-      <section class="contacts">
-        <div class="contacts-content">
-          <h2>Контакты</h2>
-          <ul class="contact-items">
-            <li class="contact-item">
-              <h3>Адрес:</h3>
-              <address>г. Ростов-на-дону, ул. Гагарина, 1</address>
-            </li>
-            <li class="contact-item">
-              <h3>Телефон:</h3>
-              <a href="tel:+7622620563">8 (800) 55-35-35</a>
-            </li>
-            <li class="contact-item">
-              <h3>E-mail:</h3>
-              <a href="mailto:yachtclub-sochi@mail.ru">groom/room/@mail.ru</a>
-            </li>
-            <li class="contact-item">
-              <h3>Мы в социальных сетях:</h3>
-              <ul class="social-list">
-                <li class="social-item">
-                  <a href="#">
-                    <img src="https://i.pinimg.com/564x/a2/dc/5c/a2dc5c3a8c443f7bce721542c2a98a2f.jpg" alt="вотсап" width="25" height="25">
-                  </a>
-                </li>
-                <li class="social-item">
-                  <a href="#">
-                    <img src="https://i.pinimg.com/564x/e9/1a/69/e91a695d2def28f83a60b31e9c66a4e0.jpg" alt="вк" width="25" height="25">
-                  </a>
-                </li>
-                <li class="social-item">
-                  <a href="#">
-                    <img src="https://i.pinimg.com/564x/cb/71/ad/cb71ad59be30b2a242ae7a03edc72298.jpg" alt="тг" width="25" height="25">
-                  </a>
-                </li>
-              </ul>
-            </li>
-          </ul>
+          <div class="pioneer-description">
+            <div>
+              <div class="power-machine-factory-description-container">
+                <p class="power-machine-title">Российский завод силовых машин</p>
+                <p class="power-machine-description-text-style">научно-производственное предприятие, занимающееся разработкой и производством силовых машин.</p>
+              </div>
+              <div class="vertical-spacer">
+                <img src="https://i.ibb.co/PcjRYfn/image-783e95aa.jpg" class="image-container-fullwidth" />
+              </div>
+            </div>
+            <div class="pioneer-description">
+              <div class="main-content-container">
+                <p class="pioneer-heading">О предприятии</p>
+                <div class="pioneer-info-box">
+                  <div class="pioneer-content-block">
+                    <p class="pioneer-description1">За 20 лет развития в структуре завода сформирован мощный производственный потенциал, научно-технический центр, испытательная лаборатория, современная база, учебный центр и широкая сеть региональных и международных представительств в Российской Федерации, Республике Беларусь, Узбекистане и Казахстане.</p>
+                    <p class="pioneer-text-block">Ежегодно НПП «ПИОНЕР» реализует несколько проектов по модернизации серийных и разработке новых приборов, призванные в наибольшей степени удовлетворять возрастающие требования наших заказчиков.</p>
+                  </div>
+                  <p class="pioneer-product-description-text-style">В номенклатуре выпускаемой НПП «ПИОНЕР» продукции найдется все, что необходимо для успешного решения задачи автоматизации технологических процессов на любом предприятии. Все средства измерения производства «ПИОНЕР» внесены в Государственный реестр СИ и имеют необходимые разрешительные документы.</p>
+                </div>
+              </div>
+              <div class="pioneer-info-section">
+                <img src="https://i.ibb.co/02Wn57R/image-e076c61e.jpg" class="image-container-full-screen" />
+                <img src="https://i.ibb.co/ftGqckp/image-a219e67f.jpg" class="image-container-with-border" />
+              </div>
+            </div>
+            <div class="pioneer-description">
+              <p class="pioneer-heading">Продукция</p>
+              <div class="vertical-flex-container1">
+                <div class="product-card-list">
+                  <div class="level-indicator-container1">
+                    <img src="https://i.ibb.co/cbP63b1/image-641c4e0f.png" class="level-indicator-widget" />
+                    <div class="level-indicator-widget1">
+                      <p class="signalizer-heading">Сигнализатор уровня</p>
+                      <div class="level-indicator-container">
+                        <p class="detail-link">Подробнее</p>
+                        <div class="svg-container1">
+                          <svg viewBox="0 0 12 12" x="0" y="0" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                              <clipPath id="clip0_0_11" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="6" height="11" fill="white" transform="translate(3, 0.5)" />
+                              </clipPath>
+                            </defs>
+                            <g id="line-angle-right-icon 1" data-node-id="0:213" clip-path="url(#clip0_0_11)" xmlns="http://www.w3.org/2000/svg">
+                              <g id="Group" data-node-id="0:214">
+                                <path id="Vector" data-node-id="0:215" d="M3.175,10.45c-0.238,0.25 -0.232,0.64 0.012,0.88c0.244,0.23 0.635,0.23 0.873,-0.02l4.763,-4.9l-0.442,-0.43l0.444,0.43c0.238,-0.25 0.232,-0.64 -0.013,-0.87c-0.007,-0.01 -0.015,-0.02 -0.022,-0.02l-4.731,-4.83c-0.238,-0.25 -0.628,-0.25 -0.872,-0.02c-0.244,0.24 -0.25,0.63 -0.012,0.88l4.345,4.43z" fill="currentColor" />
+                              </g>
+                            </g>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="pressure-sensor-details-container">
+                    <img src="https://i.ibb.co/54HrjRW/image-85762b06.png" class="pressure-sensor-image-container" />
+                    <div class="pressure-sensor-card">
+                      <p class="signalizer-heading">Датчики давления</p>
+                      <div class="level-indicator-container">
+                        <p class="detail-link">Подробнее</p>
+                        <div class="svg-container1">
+                          <svg viewBox="0 0 12 12" x="0" y="0" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                              <clipPath id="clip4_0_11" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="6" height="11" fill="white" transform="translate(3, 0.5)" />
+                              </clipPath>
+                            </defs>
+                            <g id="line-angle-right-icon 1_5" data-node-id="0:249" clip-path="url(#clip4_0_11)" xmlns="http://www.w3.org/2000/svg">
+                              <g id="Group_5" data-node-id="0:250">
+                                <path id="Vector_5" data-node-id="0:251" d="M3.175,10.45c-0.238,0.25 -0.232,0.64 0.012,0.88c0.244,0.23 0.635,0.23 0.873,-0.02l4.763,-4.9l-0.442,-0.43l0.444,0.43c0.238,-0.25 0.232,-0.64 -0.013,-0.87c-0.007,-0.01 -0.015,-0.02 -0.022,-0.02l-4.731,-4.83c-0.238,-0.25 -0.628,-0.25 -0.872,-0.02c-0.244,0.24 -0.25,0.63 -0.012,0.88l4.345,4.43z" fill="currentColor" />
+                              </g>
+                            </g>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="pid-regulator-section">
+                    <img src="https://i.ibb.co/0B8GT7Z/image-dcb3b575.png" class="image-container-with-text" />
+                    <div class="pid-regulator-details">
+                      <p class="signalizer-heading">ПИД-регуляторы</p>
+                      <div class="level-indicator-container">
+                        <p class="detail-link">Подробнее</p>
+                        <div class="svg-container1">
+                          <svg viewBox="0 0 12 12" x="0" y="0" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                              <clipPath id="clip5_0_11" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="6" height="11" fill="white" transform="translate(3, 0.5)" />
+                              </clipPath>
+                            </defs>
+                            <g id="line-angle-right-icon 1_6" data-node-id="0:258" clip-path="url(#clip5_0_11)" xmlns="http://www.w3.org/2000/svg">
+                              <g id="Group_6" data-node-id="0:259">
+                                <path id="Vector_6" data-node-id="0:260" d="M3.17,10.45c-0.23,0.25 -0.23,0.64 0.02,0.88c0.24,0.23 0.63,0.23 0.87,-0.02l4.76,-4.9l-0.44,-0.43l0.45,0.43c0.23,-0.25 0.23,-0.64 -0.02,-0.87c-0.01,-0.01 -0.01,-0.02 -0.02,-0.02l-4.73,-4.83c-0.24,-0.25 -0.63,-0.25 -0.87,-0.02c-0.25,0.24 -0.25,0.63 -0.02,0.88l4.35,4.43z" fill="currentColor" />
+                              </g>
+                            </g>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-grid-container">
+                  <div class="level-indicator-container1">
+                    <img src="https://i.ibb.co/jfQRNZ5/image-e3492ce.png" class="pressure-calibrator-card" />
+                    <div class="pressure-calibrator-section">
+                      <p class="signalizer-heading">Калибратор давления</p>
+                      <div class="level-indicator-container">
+                        <p class="detail-link">Подробнее</p>
+                        <div class="svg-container1">
+                          <svg viewBox="0 0 12 12" x="0" y="0" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                              <clipPath id="clip1_0_11" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="6" height="11" fill="white" transform="translate(3, 0.5)" />
+                              </clipPath>
+                            </defs>
+                            <g id="line-angle-right-icon 1_2" data-node-id="0:221" clip-path="url(#clip1_0_11)" xmlns="http://www.w3.org/2000/svg">
+                              <g id="Group_2" data-node-id="0:222">
+                                <path id="Vector_2" data-node-id="0:223" d="M3.175,10.45c-0.238,0.25 -0.232,0.64 0.012,0.88c0.244,0.23 0.635,0.23 0.873,-0.02l4.763,-4.9l-0.442,-0.43l0.444,0.43c0.238,-0.25 0.232,-0.64 -0.013,-0.87c-0.007,-0.01 -0.015,-0.02 -0.022,-0.02l-4.731,-4.83c-0.238,-0.25 -0.628,-0.25 -0.872,-0.02c-0.244,0.24 -0.25,0.63 -0.012,0.88l4.345,4.43z" fill="currentColor" />
+                              </g>
+                            </g>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="level-indicator-container1">
+                    <img src="https://i.ibb.co/MhjS12f/image-2b092730.png" class="gas-flow-corrector-image" />
+                    <div class="pressure-calibrator-section">
+                      <p class="signalizer-heading">Корректор расхода газа</p>
+                      <div class="level-indicator-container">
+                        <p class="detail-link">Подробнее</p>
+                        <div class="svg-container1">
+                          <svg viewBox="0 0 12 12" x="0" y="0" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                              <clipPath id="clip2_0_11" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="6" height="11" fill="white" transform="translate(3, 0.5)" />
+                              </clipPath>
+                            </defs>
+                            <g id="line-angle-right-icon 1_3" data-node-id="0:229" clip-path="url(#clip2_0_11)" xmlns="http://www.w3.org/2000/svg">
+                              <g id="Group_3" data-node-id="0:230">
+                                <path id="Vector_3" data-node-id="0:231" d="M3.175,10.45c-0.238,0.25 -0.232,0.64 0.012,0.88c0.244,0.23 0.635,0.23 0.873,-0.02l4.763,-4.9l-0.442,-0.43l0.444,0.43c0.238,-0.25 0.232,-0.64 -0.013,-0.87c-0.007,-0.01 -0.015,-0.02 -0.022,-0.02l-4.731,-4.83c-0.238,-0.25 -0.628,-0.25 -0.872,-0.02c-0.244,0.24 -0.25,0.63 -0.012,0.88l4.345,4.43z" fill="currentColor" />
+                              </g>
+                            </g>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="gauge-section">
+                    <img src="https://i.ibb.co/fFRL9zR/image-9cb84258.png" class="product-image-container" />
+                    <div class="pressure-calibrator-section">
+                      <p class="signalizer-heading">Манометры</p>
+                      <div class="level-indicator-container">
+                        <p class="detail-link">Подробнее</p>
+                        <div class="svg-container1">
+                          <svg viewBox="0 0 12 12" x="0" y="0" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                              <clipPath id="clip3_0_11" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="6" height="11" fill="white" transform="translate(3, 0.5)" />
+                              </clipPath>
+                            </defs>
+                            <g id="line-angle-right-icon 1_4" data-node-id="0:240" clip-path="url(#clip3_0_11)" xmlns="http://www.w3.org/2000/svg">
+                              <g id="Group_4" data-node-id="0:241">
+                                <path id="Vector_4" data-node-id="0:242" d="M3.17,10.45c-0.23,0.25 -0.23,0.64 0.02,0.88c0.24,0.23 0.63,0.23 0.87,-0.02l4.76,-4.9l-0.44,-0.43l0.45,0.43c0.23,-0.25 0.23,-0.64 -0.02,-0.87c-0.01,-0.01 -0.01,-0.02 -0.02,-0.02l-4.73,-4.83c-0.24,-0.25 -0.63,-0.25 -0.87,-0.02c-0.25,0.24 -0.25,0.63 -0.02,0.88l4.35,4.43z" fill="currentColor" />
+                              </g>
+                            </g>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="pioneer-description">
+              <p class="pioneer-heading">Представительства</p>
+              <div class="city-list-container1">
+                <div class="city-list-container4">
+                  <div class="city-list-container">
+                    <div class="city-list-container2">
+                      <div class="horizontal-align-center">
+                        <div class="svg-container2">
+                          <svg viewBox="0 0 10 10" x="0" y="0" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="Group 15_4" data-node-id="0:187" xmlns="http://www.w3.org/2000/svg">
+                              <circle id="Ellipse 3_4" data-node-id="0:188" cx="5" cy="5" r="4.5" fill="#D9D9D9" stroke="#607CE6" />
+                              <circle id="Ellipse 2_4" data-node-id="0:189" cx="5" cy="5" r="2.5" fill="#607CE6" stroke="#607CE6" />
+                            </g>
+                          </svg>
+                        </div>
+                        <p class="location-text-style">Казань</p>
+                      </div>
+                      <div class="city-list-container3">
+                        <div class="call-me-button-container">
+                          <div class="svg-container3">
+                            <svg viewBox="0 0 10 10" x="0" y="0" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <g id="Group 15" data-node-id="0:172" xmlns="http://www.w3.org/2000/svg">
+                                <circle id="Ellipse 3" data-node-id="0:173" cx="5" cy="5" r="4.5" fill="#D9D9D9" stroke="#607CE6" />
+                                <circle id="Ellipse 2" data-node-id="0:174" cx="5" cy="5" r="2.5" fill="#607CE6" stroke="#607CE6" />
+                              </g>
+                            </svg>
+                          </div>
+                          <p class="city-name-style">Ростов-на-дону</p>
+                        </div>
+                        <div class="location-card1">
+                          <div class="svg-container3">
+                            <svg viewBox="0 0 10 10" x="0" y="0" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <g id="Group 15_3" data-node-id="0:182" xmlns="http://www.w3.org/2000/svg">
+                                <circle id="Ellipse 3_3" data-node-id="0:183" cx="5" cy="5" r="4.5" fill="#D9D9D9" stroke="#607CE6" />
+                                <circle id="Ellipse 2_3" data-node-id="0:184" cx="5" cy="5" r="2.5" fill="#607CE6" stroke="#607CE6" />
+                              </g>
+                            </svg>
+                          </div>
+                          <p class="city-name-style">Самара</p>
+                        </div>
+                        <div class="location-card">
+                          <div class="svg-container3">
+                            <svg viewBox="0 0 10 10" x="0" y="0" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <g id="Group 15_5" data-node-id="0:192" xmlns="http://www.w3.org/2000/svg">
+                                <circle id="Ellipse 3_5" data-node-id="0:193" cx="5" cy="5" r="4.5" fill="#D9D9D9" stroke="#607CE6" />
+                                <circle id="Ellipse 2_5" data-node-id="0:194" cx="5" cy="5" r="2.5" fill="#607CE6" stroke="#607CE6" />
+                              </g>
+                            </svg>
+                          </div>
+                          <p class="city-name-style">Уфа</p>
+                        </div>
+                      </div>
+                      <div class="city-card">
+                        <div class="svg-container3">
+                          <svg viewBox="0 0 10 10" x="0" y="0" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="Group 15_2" data-node-id="0:177" xmlns="http://www.w3.org/2000/svg">
+                              <circle id="Ellipse 3_2" data-node-id="0:178" cx="5" cy="5" r="4.5" fill="#D9D9D9" stroke="#607CE6" />
+                              <circle id="Ellipse 2_2" data-node-id="0:179" cx="5" cy="5" r="2.5" fill="#607CE6" stroke="#607CE6" />
+                            </g>
+                          </svg>
+                        </div>
+                        <p class="city-name-style">Волгоград</p>
+                      </div>
+                    </div>
+                    <div class="location-card3">
+                      <div class="svg-container3">
+                        <svg viewBox="0 0 10 10" x="0" y="0" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g id="Group 15_6" data-node-id="0:197" xmlns="http://www.w3.org/2000/svg">
+                            <circle id="Ellipse 3_6" data-node-id="0:198" cx="5" cy="5" r="4.5" fill="#D9D9D9" stroke="#607CE6" />
+                            <circle id="Ellipse 2_6" data-node-id="0:199" cx="5" cy="5" r="2.5" fill="#607CE6" stroke="#607CE6" />
+                          </g>
+                        </svg>
+                      </div>
+                      <p class="city-name-style">Нижневартовск</p>
+                    </div>
+                  </div>
+                  <div class="location-card2">
+                    <div class="svg-container2">
+                      <svg viewBox="0 0 10 10" x="0" y="0" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="Group 15_7" data-node-id="0:202" xmlns="http://www.w3.org/2000/svg">
+                          <circle id="Ellipse 3_7" data-node-id="0:203" cx="5" cy="5" r="4.5" fill="#D9D9D9" stroke="#607CE6" />
+                          <circle id="Ellipse 2_7" data-node-id="0:204" cx="5" cy="5" r="2.5" fill="#607CE6" stroke="#607CE6" />
+                        </g>
+                      </svg>
+                    </div>
+                    <p class="location-text-style">Владивосток</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="news-section">
+              <p class="pioneer-heading">Новости</p>
+              <div class="news-card-container">
+                <div class="vertical-card-container">
+                  <img src="https://i.ibb.co/9NGZbsG/image-c4a72d21.jpg" class="article-thumbnail" />
+                  <div class="pioneer-consulting-card-body">
+                    <p class="pioneer-consulting-text-style">НПП «ПИОНЕР» подтвердило свои компетенции в области консультирования и изготовления…</p>
+                    <div class="article-meta-info">
+                      <p class="read-more-date-paragraph">Читать далее</p>
+                      <p class="publication-date">20.07.2020</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="vertical-card-container">
+                  <img src="https://i.ibb.co/2nr2PW6/image-e78c85ed.jpg" class="article-thumbnail" />
+                  <div class="pioneer-consulting-card-body">
+                    <p class="pioneer-consulting-text-style">Поздравляем коллектив регионального представительства «ПИОНЕР» с праздником!</p>
+                    <div class="article-meta-info">
+                      <p class="read-more-date-paragraph">Читать далее</p>
+                      <p class="publication-date">18.07.2020</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="vertical-card-container">
+                  <img src="https://i.ibb.co/gTdhMTQ/image-843af379.jpg" class="article-thumbnail" />
+                  <div class="news-article-preview">
+                    <p class="pioneer-consulting-text-style">Перенос сроков проведения запланированных работ в 2020 году</p>
+                    <div class="article-meta-info">
+                      <p class="read-more-date-paragraph">Читать далее</p>
+                      <p class="publication-date">20.06.2020</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <img class="contacts-img" src="https://static-maps.yandex.ru/1.x/?l=map&ll=39.713513%2C47.236336&pt=39.713513%2C47.236336%2Cflag&bbox=39.711222%2C47.235534%7E39.715785%2C47.237162&size=650%2C450" width="670" height="351" alt="Карта с адресом груминг салона">
-      </section>
-    </main>
-    <footer class="main-footer">
-      <div class="footer-container">
-        <div class="footer-column">
-          <p class="logo">
-            <img src="https://i.pinimg.com/564x/4c/71/74/4c7174903c9167c4980e947fed730573.jpg" width="150" height="120" alt="Логотип груминг салона">
-          </p>
-          <p class="policy"><a href="#">Политика конфиденциальности</a></p>
-          <p class="copyright">Груминг салон ©2023 Все права защищены</p>
-        </div>
-        <ul class="footer-navigation-topics">
-          <li class="footer-navigation-topic">
-            <h2>Компания</h2>
-            <ul class="footer-navigation">
-              <li class="footer-navigation-item">
-                <a href="#">О нас</a>
-              </li>
-              <li class="footer-navigation-item">
-                <a href="#">Команда</a>
-              </li>
-              <li class="footer-navigation-item">
-                <a href="#">Новости</a>
-              </li>
-              <li class="footer-navigation-item">
-                <a href="#">Блог</a>
-              </li>
-              <li class="footer-navigation-item">
-                <a href="#">Галерея</a>
-              </li>
-            </ul>
-          </li>
-          <li class="footer-navigation-topic">
-            <h2>Груминг салон</h2>
-            <ul class="footer-navigation">
-              <li class="footer-navigation-item">
-                <a href="#">Правила</a>
-              </li>
-              <li class="footer-navigation-item">
-                <a href="#">Стоимость</a>
-              </li>
-              <li class="footer-navigation-item">
-                <a href="#">Анкета</a>
-              </li>
-              <li class="footer-navigation-item">
-                <a href="#">FAQ</a>
-              </li>
-              <li class="footer-navigation-item">
-                <a href="#">Партнеры</a>
-              </li>
-            </ul>
-          </li>
-          <li class="footer-navigation-topic">
-            <h2>Услуги</h2>
-            <ul class="footer-navigation">
-              <li class="footer-navigation-item">
-              </li>
-              <li class="footer-navigation-item">
-                
-              </li>
-              <li class="footer-navigation-item">
-                <a href="#">День рождения</a>
-              </li>
-              <li class="footer-navigation-item">
-                <a href="#">Бизнес-встречи</a>
-              </li>
-              <li class="footer-navigation-item">
-                <a href="#">Прогулки</a>
-              </li>
-            </ul>
-          </li>
-          <li class="footer-navigation-topic">
-            <h2>Новости</h2>
-            <ul class="footer-navigation">
-              <li class="footer-navigation-item">
-                
-              </li>
-              <li class="footer-navigation-item">
-                <a href="#">Календарь акций</a>
-              </li>
-              <li class="footer-navigation-item">
-                <a href="#">Стать участником</a>
-              </li>
-              <li class="footer-navigation-item">
-                
-              </li>
-              <li class="footer-navigation-item">
-                <a href="#">Обучение</a>
-              </li>
-            </ul>
-          </li>
-        </ul>
       </div>
-    </footer>
-    <script src="script.js"></script>
-  </body>
+      <div class="pioneer-section-container1">
+        <div class="pioneer-section-container">
+          <img src="https://i.ibb.co/GTHC71p/image-b95b0654.png" class="contact-info-container" />
+          <div class="section-title-container3">
+            <div class="section-title-container1">
+              <p class="section-title-style1 section-title-style section-title-style1:first-child">Главная</p>
+              <p class="section-title-style1 section-title-style">О предприятии</p>
+              <p class="section-title-style1 section-title-style">Новости</p>
+              <p class="section-title-style1 section-title-style">Продукция</p>
+              <p class="section-title-style1 section-title-style">Услуги</p>
+            </div>
+            <div class="section-title-container">
+              <p class="section-title-style1 section-title-style section-title-style1:first-child">Поддержка</p>
+              <p class="section-title-style1 section-title-style">География поставок</p>
+              <p class="section-title-style1 section-title-style">Контакты</p>
+            </div>
+            <div class="section-title-container2">
+              <!-- Repeated elements detected. These are rendered using loops & conditions in the React tab -->
+              <p class="section-title-style1 section-title-style section-title-style1:first-child">Файлы</p>
+              <p class="section-title-style1 section-title-style">Поддержка</p>
+              <p class="section-title-style1 section-title-style section-title-style1:last-child">Политика <br />конфеденциальности</p>
+            </div>
+          </div>
+        </div>
+        <p class="company-info-text-style">1994 — 2020 ООО «ПИОНЕР»</p>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
